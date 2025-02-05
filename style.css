@@ -204,9 +204,22 @@ span{
     font-size: var(--p-font);
     padding: 10px 40px;
     font-weight: 500;
-    line-height: 24px;
-    border-radius: 30px;
-    transition: ease.40s;
+    line-height: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.btn1{
+  display: inline-block;
+  color: var(--bg-color);
+  background:var(--main-color);
+  font-size: var(--p-font);
+  padding: 10px 40px;
+  font-weight: 500;
+  line-height: 20px;
+  border-radius: 10px;
+  
 }
 
 .btn2{
@@ -240,8 +253,11 @@ span{
 }
 
 .btn:hover{
-    transform:scale(1.1);
     background: #0b59c8;
+}
+
+.btn1:hover{
+  background: #0b59c8;
 }
 
 .contbtn{
